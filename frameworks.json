@@ -1,0 +1,93 @@
+{
+  "generated_at": "2026-07-28",
+  "frameworks": [
+    {
+      "name": "Flask",
+      "github_stars_approx": 68000,
+      "primary_use_case": "lightweight web apps and REST APIs",
+      "execution_model": "sync",
+      "async_support": false,
+      "supports_websockets": false,
+      "license": "BSD-3-Clause",
+      "latest_stable_version": "3.0.3",
+      "website_url": "https://flask.palletsprojects.com"
+    },
+    {
+      "name": "Django",
+      "github_stars_approx": 81000,
+      "primary_use_case": "full-stack web apps with ORM and admin",
+      "execution_model": "sync",
+      "async_support": true,
+      "supports_websockets": false,
+      "license": "BSD-3-Clause",
+      "latest_stable_version": "5.1.4",
+      "website_url": "https://www.djangoproject.com"
+    },
+    {
+      "name": "FastAPI",
+      "github_stars_approx": 76000,
+      "primary_use_case": "high-performance async REST APIs with type hints",
+      "execution_model": "async",
+      "async_support": true,
+      "supports_websockets": true,
+      "license": "MIT",
+      "latest_stable_version": "0.115.6",
+      "website_url": "https://fastapi.tiangolo.com"
+    },
+    {
+      "name": "Tornado",
+      "github_stars_approx": 22000,
+      "primary_use_case": "asynchronous networking and long-lived connections",
+      "execution_model": "async",
+      "async_support": true,
+      "supports_websockets": true,
+      "license": "Apache-2.0",
+      "latest_stable_version": "6.4.2",
+      "website_url": "https://www.tornadoweb.org"
+    },
+    {
+      "name": "Starlette",
+      "github_stars_approx": 11000,
+      "primary_use_case": "lightweight ASGI framework powering FastAPI",
+      "execution_model": "async",
+      "async_support": true,
+      "supports_websockets": true,
+      "license": "BSD-3-Clause",
+      "latest_stable_version": "0.41.3",
+      "website_url": "https://www.starlette.io"
+    },
+    {
+      "name": "Bottle",
+      "github_stars_approx": 8000,
+      "primary_use_case": "single-file micro web framework",
+      "execution_model": "sync",
+      "async_support": false,
+      "supports_websockets": false,
+      "license": "MIT",
+      "latest_stable_version": "0.13.4",
+      "website_url": "https://bottlepy.org"
+    },
+    {
+      "name": "Sanic",
+      "github_stars_approx": 18000,
+      "primary_use_case": "asynchronous HTTP server for fast REST APIs",
+      "execution_model": "async",
+      "async_support": true,
+      "supports_websockets": true,
+      "license": "MIT",
+      "latest_stable_version": "24.6.0",
+      "website_url": "https://sanic.dev"
+    },
+    {
+      "name": "Falcon",
+      "github_stars_approx": 9500,
+      "primary_use_case": "high-performance minimalist REST API framework",
+      "execution_model": "both",
+      "async_support": true,
+      "supports_websockets": false,
+      "license": "Apache-2.0",
+      "latest_stable_version": "4.0.2",
+      "website_url": "https://falcon.readthedocs.io"
+    }
+  ]
+}
