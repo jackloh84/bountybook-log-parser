@@ -104,3 +104,11 @@ Gas note: each sweep uses ~0.00005 ETH. Current gas: 0.000822 ETH (~16 sweeps bu
   - Block: 49,165,300
   - Jack wallet now holds 9.30 USDC total
 
+
+### $JACKSX402A token (Jul 29, 14:34 UTC)
+- Token contract (Base): `0xc373bcc60f1Ba2DD5FdFb1890A24DE8c3A7Ce676`
+- Symbol: JACKSX402A
+- Total supply: 1,000,000,000 (1B)
+- Initial holder: `0xc7e6209b42abfab740ef2630c7b017afe52657e3` (100%)
+- Liquidity pool: 1B unlocked (100%)
+- Source: app.virtuals.io EconomyOS Holders tab
