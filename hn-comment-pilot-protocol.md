@@ -1,0 +1,1 @@
+Built something in this space — a 9-endpoint x402 stack on Base that already serves wallet-scan, Polymarket odds, token info, and contract risk (paid per call in USDC, ~$0.005). Reusable as the wallet-balance / data-source primitive Pilot agents can call before they spend: api.kachangsia.com/api. Founding Agent gets 500 free calls for testing.

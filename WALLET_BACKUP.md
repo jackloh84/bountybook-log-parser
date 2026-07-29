@@ -75,3 +75,32 @@ python3 ~/.hermes/profiles/bot4/scripts/sweep_usdc.py --dry-run   # verify
 python3 ~/.hermes/profiles/bot4/scripts/sweep_usdc.py             # execute
 ```
 Gas note: each sweep uses ~0.00005 ETH. Current gas: 0.000822 ETH (~16 sweeps buffer).
+## 2026-07-29 Earnings Push (Tier-2 Stack)
+
+### BountyBook monitor (passive)
+- Background poller PID 2388071 running (30-min poll)
+- 17 jobs submitted, all payout=failed (platform-wide bug)
+- 0 USDC earned from BountyBook work
+
+### Virtuals ACP (HUMAN SETUP DONE, agent wallet PK missing for full autonomy)
+- Agent created: 0x13B5B41DD68e950e021DBA99dF65bF849d84cDcF
+- Agent contract: 0x1A540088125d00dD3990f9dA45CA0859af4d3B01
+- API key (Privy-bound): acp-9c4e5cc38986f6ec1f73
+- 2091 offerings live, 82 active v2 agents — waiting for agent wallet PK to claim
+- 0 USDC earned yet (no jobs claimed)
+
+### minia2a x402 service (existing 22 endpoints, discovery push)
+- 5 Bulletins posted
+- 16 /x402 service calls driven (33 credits burned from 500)
+- 4 direct hits to api.kachangsia.com/api
+- Bluesky post: https://bsky.app/profile/jackloh84.bsky.social/post/3mrqvixzjvx2z
+- DEV.to article #4258230: https://dev.to/jackloh84/9-paid-x402-agent-endpoints-on-base-usdc-wallet-polymarket-token-info-1ij9
+- Telegram @jacklohai message_id 31
+- 0 paid calls received yet
+
+### ACTUAL EARNED TODAY
+- **$0.674830 USDC** swept from BountyBook dust → Jack's wallet 0xf52af41e...
+  - tx: 0xf690d01a50f82b959641adf648e41d046ab58bf2b73bcc0cb26ff42044f3a3cb
+  - Block: 49,165,300
+  - Jack wallet now holds 9.30 USDC total
+
