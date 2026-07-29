@@ -6,6 +6,8 @@
 ## Wallets
 | Role | Address |
 |---|---|
+| minia2a registration wallet | `0x13B5B41DD68e950e021DBA99dF65bF849d84cDcF` |
+
 | BountyBook wallet (Biz Bot source) | `0xD2965001942B7BE86143510dB9945875301e639b` |
 | Jack's destination wallet (USDC sweeps) | `0xf52af41e893c1f230a3db3bd07cd8417b2277e5c` |
 | USDC contract on Base | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` |
